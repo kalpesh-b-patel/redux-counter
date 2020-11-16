@@ -1,0 +1,25 @@
+.counter {
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.counter__result {
+  margin-top: 10px;
+}
+
+.counter__action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter__action button {
+  padding: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bolder;
+}
